@@ -28,10 +28,9 @@ npm run lint       # Run linting
 
 ## Project Structrue
 src/
-├── config/         # Configuration
+├── docs/         # Generate documentation
 ├── middleware/     # Express middleware
 ├── routes/         # Route handlers
-├── services/       # Business logic
 ├── utils/         # Utilities
 └── validators/     # Input validation
 
@@ -42,6 +41,8 @@ docker run -p 5005:5005 payload-transformer
 ```
 
 ## Future Improvements
+- Add business logic to services folder
+  - since this way a bit of an arbitrary ask, I didn't bother extracting the main logic into a seperate folder, for a real production API, this would be done for sure
 - Authentication / Authorization
   - in production we would more than likely have some sort of Auth on any exposed API
 - API Versioning
