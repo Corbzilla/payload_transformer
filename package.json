@@ -8,6 +8,7 @@
     "dev": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/index.ts",
     "build": "tsc",
     "start": "node dist",
+    "lint": "eslint .",
     "prepare": "husky"
   },
   "author": "Corbzilla <jason.ron.corbett@gmail.com>",

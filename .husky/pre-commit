@@ -1,2 +1,2 @@
-eslint .
+npm run lint
 npm test
